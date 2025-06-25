@@ -1,8 +1,7 @@
-from flask import Flask, request, jsonify
+from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/api/hello', methods=['GET'])
-def hello():
-    name = request.args.get('name', 'World')
-    return jsonify(message=f'Hello, {name}!')
+@app.route('/')
+def home():
+    return "Hello, World!"
