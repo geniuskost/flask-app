@@ -1,11 +1,2 @@
-Creoleparser
-Flask
-Flask-OpenID
-Flask-SQLAlchemy
-Genshi
-Jinja2
-Pygments
-SQLAlchemy
-Werkzeug
-Whoosh
-python-openid
+Flask==1.0.2
+wikipedia==1.4.0
